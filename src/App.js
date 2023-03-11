@@ -1,6 +1,8 @@
+import React from "react";
 import Auth from "./components/auth";
 import Dashboard from "./components/dahsboard";
 import { useUserContext } from "./context/userContext";
+
 
 function App() {
   const { user, loading, error } = useUserContext();
